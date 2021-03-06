@@ -3,5 +3,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('blog.urls'))  # ''で始まるURLははblogアプリのurl.pyの引用
+    path('a', include('blog.urls'))  # ''で始まるURLははblogアプリのurl.pyの引用
 ]
